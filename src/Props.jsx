@@ -14,7 +14,8 @@ class Props extends Component{
     render(){
         return(
         <div>
-            <h1>My Name is </h1></div>
+            {/* Received Props here*/}
+            <h1>My Name is {this.props.name}</h1></div>
         )
     }
 }
