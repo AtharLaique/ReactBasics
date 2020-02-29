@@ -15,7 +15,11 @@ class Props extends Component{
         return(
         <div>
             {/* Received Props here*/}
-            <h1>My Name is {this.props.name}</h1></div>
+            <h1>My Name is {this.props.name}</h1>
+             {/* props.children*/}
+             {this.props.children}
+            </div>
+            
         )
     }
 }
