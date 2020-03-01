@@ -11,6 +11,10 @@ import React , {Component }from 'react';
 //     ) 
 // }
 class Props extends Component{
+    //Declare the state
+    state={
+        name:'Athar Laique'
+    }
     render(){
         return(
         <div>
@@ -18,6 +22,8 @@ class Props extends Component{
             <h1>My Name is {this.props.name}</h1>
              {/* props.children*/}
              {this.props.children}
+             {/* use acces state */}
+             {this.state.name}
             </div>
             
         )
