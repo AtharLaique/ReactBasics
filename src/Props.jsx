@@ -15,7 +15,13 @@ class Props extends Component{
     state={
         name:'Athar Laique'
     }
+    componentDidMount=()=>{
+         //Update state using setState()
+        this.setState({name:'Ali'})
+    }
     render(){
+       
+       
         return(
         <div>
             {/* Received Props here*/}
